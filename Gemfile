@@ -11,7 +11,7 @@ gem 'sqlite3', '~> 1.4'
 gem 'active_model_serializers'
 gem 'factory_bot_rails'
 gem 'kaminari'
-gem 'ocktokit', '~> 4.0'
+gem 'octokit', '~> 4.0'
 gem 'puma', '~> 5.0'
 gem 'rspec-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
