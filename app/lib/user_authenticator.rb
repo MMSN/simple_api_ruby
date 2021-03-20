@@ -3,7 +3,8 @@ class UserAuthenticator
 
   attr_reader :user
 
-  def initialize(code); end
+  def initialize(code)
+  end
 
   def perform
     raise AuthenticationError
