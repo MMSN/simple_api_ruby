@@ -6,6 +6,7 @@ describe UserAuthenticator do
         let(:authenticator) { described_class.new('sample_code') }
 
         subject { authenticator.perform }
+        
         context 'when code is incorrect' do
             let(:error) {
                 double("Sawyer::Resource", error: "bad_verification_code")
